@@ -1,0 +1,16 @@
+{
+  "name": "sws3uploader",
+  "version": "0.0.1",
+  "description": "StrateyWise's web frontend uploade ulti for AWS S3",
+  "main": "sws3uploader",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Casey Phillips",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.x",
+    "ejs": "2.x",
+    "express": "^4.15.2"
+  }
+}
