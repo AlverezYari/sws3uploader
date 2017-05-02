@@ -6,11 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "scripts": {
+    "start": "node app.js"
+},
   "author": "Casey Phillips",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "2.x",
     "ejs": "2.x",
     "express": "^4.15.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlverezYari/sws3uploader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlverezYari/sws3uploader/issues"
+  },
+  "homepage": "https://github.com/AlverezYari/sws3uploader#readme"
 }
