@@ -1,0 +1,9 @@
+heroku config:set AWS_ACCESS_KEY_ID=AKIAJIUXK5GDBX6RNO7A AWS_SECRET_ACCESS_KEY=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
+
+heroku config:set S3_BUCKET=sw.demo.bucket.01
+
+
+
+heroku config:get AWS_ACCESS_KEY_ID -s  >> .env
+heroku config:get AWS_SECRET_ACCESS_KEY -s  >> .env
+heroku config:get S3_BUCKET -s  >> .env
